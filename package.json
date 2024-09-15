@@ -7,6 +7,5 @@
     "build": "react-scripts build",
     "vercel-build": "react-scripts build",
     "server": "json-server --watch db.json --port 4000"
-}
-
+  }
 }
