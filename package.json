@@ -3,8 +3,10 @@
     "json-server": "^1.0.0-beta.2"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "server": "json-server --watch db.json --port 5000"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "vercel-build": "react-scripts build",
+    "server": "json-server --watch db.json --port 4000"
 }
 
 }
